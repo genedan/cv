@@ -1,0 +1,160 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati (alessandro.plasmati@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+% The main document font is called Fontin and can be downloaded for free
+% from here: http://www.exljbris.com/fontin.html
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt]{article} % Default font size and paper size
+
+\usepackage{fontspec} % For loading fonts
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
+
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+%\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
+% To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+
+\usepackage[top = .3in, bottom = .3in, left = 1in, right = 1in]{geometry}
+\usepackage{longtable}
+
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+
+\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\par{\centering{\Huge Gene \textsc{Dan}}\par} % Your name
+
+\begin{center}
+\textsc{Phone:}  (832) 656 - 0131 \qquad
+\textsc{email:}  \href{mailto:gene@genedan.com}{gene@genedan.com}
+\end{center}
+
+
+%----------------------------------------------------------------------------------------
+%	ACTUARIAL EXAMS
+%----------------------------------------------------------------------------------------
+
+\section{Actuarial Exams}
+ACAS - pending approval by CAS Board of Directors\\
+Sitting for Exam 8 in October 2015
+%----------------------------------------------------------------------------------------
+%	AREAS OF EXPERTISE
+%----------------------------------------------------------------------------------------
+
+\section{Areas of Expertise}
+\begin{tabular}{r|p{10cm}}
+\textsc{Skills: } & Predictive Modeling, Data Visualization, Programming\\
+\textsc{Programming Languages: } & R, T-SQL, VBA, Python, C++\\
+\textsc{Markup Languages: } & \LaTeX, Markdown, HTML\\
+\textsc{Software: } & Bash, Git, SQL Server, Access, Excel, ReservePro, Emblem\\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE 
+%----------------------------------------------------------------------------------------
+
+\section{Work Experience}
+
+\begin{tabular}{r|p{12cm}}
+\textsc{Aug 2014} - \emph{Current} & \textsc{Argo Group International Holdings}\\
+\textsc{Chicago, IL} & \emph{Actuarial Analyst - Analytics and Research}\\ 
+& \footnotesize{\textbullet Constructed binomial hit ratio models to optimize submissions triaging for excess and surplus lines \newline
+\textbullet Developed stochastic simulations to forecast profitability from predictive models \newline
+\textbullet Worked closely with process engineers to eliminate low potential submissions via broker
+submission models \newline
+\textbullet Used generalized linear modeling to develop tiering models and construct rating algorithms for small business and public entities  \newline 
+\textbullet Used cluster analysis to classify policies and improve credibility in ratemaking}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{Mar 2011-Jul 2014} & \textsc{HCC Insurance Holdings}\\
+\textsc{Houston, TX} & \emph{Actuarial Analyst}\\
+& \footnotesize{\textbullet Developed generalized linear models for personal aviation, commercial
+surety, kidnap and ransom, and commercial product tampering lines - responsible for modeling, cross validation, presentation, and implementation of
+results \newline
+\textbullet Developed marketing models to reduce the costs and increase the effectiveness of targeted advertising \newline
+\textbullet Revamped the surety pricing structure to incorporate new predictive models
+- worked closely with IT staff to rewrite the internal quoting system \newline
+\textbullet Advised the underwriting heads of various subsidiaries on selecting insureds
+- realized a 10\% reduction in aviation loss ratio after modeling initiative \newline
+\textbullet Calculated rate indications for large accounts - professional sports liability,
+games of chance, and workers’ compensation}\\\\
+
+
+%------------------------------------------------
+
+& \emph{Assistant Actuarial Analyst}\\
+ & \footnotesize{\textbullet Performed quarterly reserve reviews for personal aviation, military aviation,
+and commercial marine lines of business \newline
+\textbullet Wrote automation routines to convert legacy systems for data warehousing}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{Nov 2010-Mar 2011} & \textsc{AIG - VALIC}\\
+\textsc{Houston, TX} & \emph{Actuarial Intern}\\
+& \footnotesize{\textbullet Stochastic Modeling - generated random walks to simulate reserve values
+for various annuity products \newline
+\textbullet Capital Modeling - ran simulations to calculate TVaR for C3 Phase II capital
+requirements \newline
+\textbullet Developed tools in VBA to analyze lapse rates and surrender charges on
+policyholders}
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{tabular}{rl}	
+\textsc{2010} & \textbf{The University of Texas at Austin}\\
+& B.S. Mathematics	\\
+& B.A. Economics Honors Program\\
+& B.A. Plan II Honors Program\\
+& \quad Thesis: {\itshape Genetic Testing in Actuarial Science - }\\
+& \qquad {\itshape A Welfare Analysis on Adverse Selection and Repulsion from Chance}\\
+\\
+& {\bfseries Honors:  } Phi Beta Kappa, Phi Kappa Phi, Omicron Delta Epsilon\\
+& GPA: 3.85 \\
+&\\
+\end{tabular}
+
+
+\end{document}
