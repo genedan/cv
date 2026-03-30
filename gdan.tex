@@ -61,7 +61,8 @@
 
 \begin{center}
 \textsc{Phone:}  (832) 656 - 0131 \qquad
-\textsc{email:}  \href{mailto:gene@genedan.com}{gene@genedan.com}
+\textsc{email:}  \href{mailto:gene@genedan.com}{gene@genedan.com}\qquad
+\textsc{GitHub:} \href{https://github.com/genedan}{github.com/genedan}
 \end{center}
 
 
@@ -71,10 +72,10 @@
 
 \section{Areas of Expertise}
 \begin{tabular}{r|p{10cm}}
-\textsc{Skills: } & Predictive Modeling, Actuarial Analysis, Programming\\
-\textsc{Programming Languages: } & R, SQL, Python, Scala, C++\\
-\textsc{Markup Languages: } & \LaTeX, Markdown, HTML\\
-\textsc{Software: } & Bash, Git, Linux, SQL Server, Azure, Spark, Databricks\\
+\textsc{Skills: } & Actuarial software development, predictive modeling\\
+\textsc{Programming Languages: } & Python,  SQL\\
+\textsc{Markup Languages: } & \LaTeX, Markdown, reStructuredText, HTML\\
+\textsc{Software: } & Qt, Bash, Git, Linux, SQL Server, Azure\\
 \end{tabular}
 
 %----------------------------------------------------------------------------------------
@@ -84,13 +85,24 @@
 \section{Work Experience}
 
 \begin{tabular}{r|p{12cm}}
-\textsc{Aug 2017} - \emph{Current} & \textsc{Milliman}\\
+\textsc{Oct  2019} - \emph{Current} & \textsc{SCOR Re}\\
+\textsc{Chicago, IL} & \emph{Assistant Vice President - Pricing Actuary}\\ 
+& \footnotesize{
+       \textbullet Designed a data warehouse to capture all US casualty bordereaux, and programmed cross-cedent rate change and trend studies applications built on top of this database \newline
+        \textbullet Developed an algorithm to allocate capital to all incoming treaty business at the time of pricing, deployed via the company's internal pricing system\newline
+	\textbullet Maintained a catastrophe model to indicate D\&O cat loads for treaty pricing\newline
+       \textbullet Developed an automated rating engine for facultative marine placements, deployed as a Flask server behind a web application\newline
+       \textbullet Managed, mentored, and reviewed the performance of 6 staff members
+}\\
+\multicolumn{2}{c}{} \\
+
+\textsc{Aug 2017} -\textsc{Jun 2019} & \textsc{Milliman}\\
 \textsc{Chicago, IL} & \emph{Consulting Actuary - Advanced Analytics and Data Solutions}\\ 
 & \footnotesize{
-       \textbullet Led a team of 4 consultants to support the migration of index evaluations to Databricks for a large stock exchange. Automated security selection, rebalancing, and conducted historical backtesting of stock indexes. \newline
-        \textbullet Built predictive models to determine the main predictors of lapse rates for large life insurance clients.\newline
-	\textbullet Responsible for sales, project management, recruiting, and hiring in a startup environment.\newline
-       \textbullet Managed 2 direct reports, and up to 6 staff on a per-project basis.
+       \textbullet Led a team of 4 consultants to support the migration of index evaluations to Databricks for a large stock exchange. Automated security selection, rebalancing, and conducted historical backtesting of stock indexes \newline
+        \textbullet Built predictive models to determine the main predictors of lapse rates for large life insurance clients\newline
+	\textbullet Responsible for sales, project management, recruiting, and hiring in a startup environment\newline
+       \textbullet Managed 2 direct reports, and up to 6 staff on a per-project basis
 }\\
 \multicolumn{2}{c}{} \\
 
@@ -100,7 +112,7 @@
 \textsc{Aug 2015 - Jun 2017} & \textsc{Allianz AGCS}\\
 \textsc{Chicago, IL} & \emph{Senior Actuarial Analyst - Claims Predictive Modeling}\\ 
 & \footnotesize{\textbullet Developed commercial property and inland marine fraud detection models using logistic regression with full
-implementation into the special investigation unit. \newline
+implementation into the special investigation unit \newline
 \textbullet Constructed a triage model to optimize the assignment of claims to claims adjusters for commercial property \newline
 \textbullet Built tools to monitor the performance of fraud and subrogation models post-implementation \newline
 \textbullet Obtained model feedback from claims adjusters, SIU investigators, and claims managers, and presented model results to senior management}\\
@@ -136,6 +148,46 @@ and commercial marine lines of business}\\
 \end{tabular}
 
 %----------------------------------------------------------------------------------------
+%	Publications and Research
+%----------------------------------------------------------------------------------------
+
+\section{Publications and Research}
+\begin{tabular}{r|p{12cm}}
+\textsc{Jun 2021 - Present} & \textsc{Free Actuarial System for Loss Reserving (\href{https://faslr.com}{faslr.com})}\\
+\textsc{} & \emph{Founder}\\
+& \footnotesize{
+	\textbullet Currently developing an open-source desktop application for loss reserving\newline
+	\textbullet Reserving methods are executed using the chainladder-python package as a calculation engine\newline
+	\textbullet Used Qt to develop a point-and click frontend, with data stored in a SQL database\newline
+	\textbullet Developed project documentation using Sphinx and reStructuredText, and deployed a website onto a cloud server running Nginx
+}\\
+\multicolumn{2}{c}{} \\
+
+
+\textsc{Oct 2022 - Present} & \textsc{Chainladder-Python (\href{https://chainladder-python.readthedocs.io}{chainladder-python.readthedocs.io})}\\
+\textsc{} & \emph{Core Contributor to the actuarial reserving package}\\
+& \footnotesize{
+	\textbullet Possess the authority to review and approve pull requests from community developers\newline
+	\textbullet Added unit tests to the documentation to prevent bugs during new version deployment\newline
+	\textbullet Fixed bugs pertaining to Mack development and valuation diagnostic tests\newline
+	\textbullet Recruited new contributors from the actuarial community\newline
+}\\
+\multicolumn{2}{c}{} \\
+
+\textsc{Jan 2026 - Present} & \textsc{CAS Open Source Working Group}\\
+\textsc{} & \emph{Committee Member}\\
+& \footnotesize{
+	\textbullet Work directly with committee chair to promote CAS open-source initiatives and drive the development of the chainladder-python package\newline
+	\textbullet Contributed packages to the CAS GitHub, including a Python implementation of the Property Casualty Data Model 				Specification\newline
+	\textbullet Serve as group liaison to connect with actuarial organizations and professionals outside the US
+}\\
+\multicolumn{2}{c}{} \\
+
+\textsc{Aug 2024} & \textsc{\emph{Practitioner's Guide to Building Actuarial Reserving Workflows Using chainladder-python} (\href{https://eforum.casact.org/article/123379-practitioners-guide-to-building-actuarial-reserving-workflows-using-chain-ladder-python}{CAS E-Forum})}\\
+\textsc{} &  \emph{Paper co-authored with John Bogaardt and Kenneth Hsu}\\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
 %	EDUCATION
 %----------------------------------------------------------------------------------------
 
@@ -148,7 +200,6 @@ and commercial marine lines of business}\\
 & B.A. Plan II Honors Program\\
 \\
 & {\bfseries Honors:  } Phi Beta Kappa, Phi Kappa Phi, Omicron Delta Epsilon\\
-& GPA: 3.85 \\
 &\\
 \end{tabular}
 
